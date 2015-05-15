@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Int64EncoderDemo", "Int64EncoderDemo\Int64EncoderDemo.vcxproj", "{4849F101-043F-4D9A-8DA5-D4B4CE32191A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Int32EncoderDemo", "Int32EncoderDemo\Int32EncoderDemo.vcxproj", "{5A63A825-8F8D-42CC-B3C0-16F0504A1B8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerEncoderLib", "IntegerEncoderLib\IntegerEncoderLib.vcxproj", "{AE86A95D-FB36-4F33-A03D-AB7044E01A2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4849F101-043F-4D9A-8DA5-D4B4CE32191A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4849F101-043F-4D9A-8DA5-D4B4CE32191A}.Debug|Win32.Build.0 = Debug|Win32
+		{4849F101-043F-4D9A-8DA5-D4B4CE32191A}.Release|Win32.ActiveCfg = Release|Win32
+		{4849F101-043F-4D9A-8DA5-D4B4CE32191A}.Release|Win32.Build.0 = Release|Win32
+		{5A63A825-8F8D-42CC-B3C0-16F0504A1B8E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A63A825-8F8D-42CC-B3C0-16F0504A1B8E}.Debug|Win32.Build.0 = Debug|Win32
+		{5A63A825-8F8D-42CC-B3C0-16F0504A1B8E}.Release|Win32.ActiveCfg = Release|Win32
+		{5A63A825-8F8D-42CC-B3C0-16F0504A1B8E}.Release|Win32.Build.0 = Release|Win32
+		{AE86A95D-FB36-4F33-A03D-AB7044E01A2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE86A95D-FB36-4F33-A03D-AB7044E01A2D}.Debug|Win32.Build.0 = Debug|Win32
+		{AE86A95D-FB36-4F33-A03D-AB7044E01A2D}.Release|Win32.ActiveCfg = Release|Win32
+		{AE86A95D-FB36-4F33-A03D-AB7044E01A2D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
