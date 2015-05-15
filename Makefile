@@ -1,11 +1,18 @@
 #
 
+TARGET_SYS = $(shell gcc -dumpmachine)
+ifneq ($(findstring x86_64,$(TARGET_SYS)),)
+CFLAGS = -m64 -fno-asm -Wno-format -D_LINUX_
+else
+CFLAGS = -m32 -march=i386 -D__i386__ -D_LINUX_
+endif
+
 # random.c is used for test files
 LIB_SRCS = ayden32.c ayden64.c ayden_init.c prng.c sha256.c random.c
 LIB_OBJS = $(LIB_SRCS:%.c=build/%.o)
 LIB_TARGET = build/libintncoder.a
 
-CFLAGS = -m32 -g -Iinclude
+CFLAGS += -Iinclude
 
 .PHONY: all clean distclean test
 
