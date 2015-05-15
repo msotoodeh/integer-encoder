@@ -1,5 +1,5 @@
 # integer-encoder
-Aiden32/64 Integer Encoder
+Ayden32/64 Integer Encoder
 ==========================
 
 Copyright Mehdi Sotoodeh.  All rights reserved.
